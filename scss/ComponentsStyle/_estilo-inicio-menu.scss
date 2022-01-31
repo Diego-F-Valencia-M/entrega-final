@@ -1,0 +1,25 @@
+/*Estilos el Menu*/
+#menu {
+    font-size: 18px;
+    font-weight: bold;
+    color: $color1;
+
+    button{
+        font-size: 18px;
+        font-weight: bold;
+    }
+}
+
+
+.carousel-inner{
+    max-height: 39rem;
+}
+
+.cont-1{
+    margin: auto;
+    text-align: center;
+}
+
+.cont-2{
+    @extend .cont-1;
+}
